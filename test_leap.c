@@ -12,7 +12,7 @@ int is_leap(long year) {
     return 0;
   }
 
-  if (year % 100 == 0) {
+  if (year % 4 == 0) {
     return 1;
   }
 
